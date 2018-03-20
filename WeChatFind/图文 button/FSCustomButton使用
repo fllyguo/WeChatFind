@@ -1,0 +1,18 @@
+
+
+FSCustomButton*_fsBut = [FSCustomButton buttonWithType:UIButtonTypeCustom];
+_fsBut.translatesAutoresizingMaskIntoConstraints = NO;
+
+[_fsBut setTitleColor:[UIColor orangeColor] forState:UIControlStateNormal];
+_fsBut.titleLabel.font = [UIFont systemFontOfSize:12.];
+[_fsBut setTitle:@"一醉方休" forState:UIControlStateNormal];
+[_fsBut setImage:[UIImage imageNamed:@"athlete"] forState:UIControlStateNormal];
+
+_fsBut.buttonImagePosition = FSCustomButtonImagePositionRight;
+
+//关键 设置偏移量；（上，左，下，右）；
+_fsBut.imageEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 0);
+_fsBut.titleEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 10);
+
+[_fsBut addTarget:self action:@selector(fsClick:) forControlEvents:UIControlEventTouchUpInside];
+

@@ -1,0 +1,898 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06142FF03D99BAE42DFDF71C /* libPods-WeChatFindTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 554DE43927A85A007493053A /* libPods-WeChatFindTests.a */; };
+		18BF2D4EB5882A4A17EDE1B6 /* libPods-WeChatFind.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E95ED4AA62760A974CD692 /* libPods-WeChatFind.a */; };
+		4042165C205A618800F150B3 /* FSCustomButton使用 in Resources */ = {isa = PBXBuildFile; fileRef = 40421656205A618700F150B3 /* FSCustomButton使用 */; };
+		4042165D205A618800F150B3 /* FSCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042165A205A618700F150B3 /* FSCustomButton.m */; };
+		4042165E205A618800F150B3 /* CALayer+FSUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042165B205A618700F150B3 /* CALayer+FSUI.m */; };
+		408520C0205F4FEB00B6A7B7 /* moment0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 408520BE205F4FEB00B6A7B7 /* moment0.plist */; };
+		408520C1205F4FEB00B6A7B7 /* moment1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 408520BF205F4FEB00B6A7B7 /* moment1.plist */; };
+		408520C7205F5C0600B6A7B7 /* CircleOfFriendsViewController+Delegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 408520C6205F5C0600B6A7B7 /* CircleOfFriendsViewController+Delegate.m */; };
+		408520CA205F5CA800B6A7B7 /* CircleOfFriendHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 408520C9205F5CA800B6A7B7 /* CircleOfFriendHeaderView.m */; };
+		408520CE205F83BC00B6A7B7 /* CircleOfFriendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 408520CD205F83BC00B6A7B7 /* CircleOfFriendTableViewCell.m */; };
+		408520D1205F85F600B6A7B7 /* CircleOfFriendModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 408520D0205F85F600B6A7B7 /* CircleOfFriendModel.m */; };
+		408520D4205F862100B6A7B7 /* CircleOfFriendLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 408520D3205F862100B6A7B7 /* CircleOfFriendLayout.m */; };
+		408520E6205FAE1300B6A7B7 /* YYPhotoGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 408520DF205FAE1200B6A7B7 /* YYPhotoGroupView.m */; };
+		408520E7205FAE1300B6A7B7 /* SDWeiXinPhotoContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 408520E1205FAE1300B6A7B7 /* SDWeiXinPhotoContainerView.m */; };
+		408520E8205FAE1300B6A7B7 /* JRMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 408520E4205FAE1300B6A7B7 /* JRMenuView.m */; };
+		409FEF21205B5295000CF933 /* CircleOfFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 409FEF20205B5295000CF933 /* CircleOfFriendsViewController.m */; };
+		40B04FC1204391C700328AF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B04FC0204391C700328AF8 /* AppDelegate.m */; };
+		40B04FC4204391C700328AF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B04FC3204391C700328AF8 /* ViewController.m */; };
+		40B04FC7204391C700328AF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B04FC5204391C700328AF8 /* Main.storyboard */; };
+		40B04FC9204391C700328AF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 40B04FC8204391C700328AF8 /* Assets.xcassets */; };
+		40B04FCC204391C700328AF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 40B04FCA204391C700328AF8 /* LaunchScreen.storyboard */; };
+		40B04FCF204391C700328AF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B04FCE204391C700328AF8 /* main.m */; };
+		40B04FD9204391C700328AF8 /* WeChatFindTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B04FD8204391C700328AF8 /* WeChatFindTests.m */; };
+		40B04FE4204391C700328AF8 /* WeChatFindUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B04FE3204391C700328AF8 /* WeChatFindUITests.m */; };
+		40B04FF3204393B800328AF8 /* ManageFindViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B04FF2204393B800328AF8 /* ManageFindViewController.m */; };
+		40B04FF6204397A700328AF8 /* FindTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B04FF5204397A700328AF8 /* FindTableViewCell.m */; };
+		A6722F06B364F593DB3FFA6B /* libPods-WeChatFindUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AC68581EBB62A4E40E16796 /* libPods-WeChatFindUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		40B04FD5204391C700328AF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40B04FB4204391C700328AF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40B04FBB204391C700328AF8;
+			remoteInfo = WeChatFind;
+		};
+		40B04FE0204391C700328AF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 40B04FB4204391C700328AF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 40B04FBB204391C700328AF8;
+			remoteInfo = WeChatFind;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2383CE0F178352C1E639A979 /* Pods-WeChatFindUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatFindUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeChatFindUITests/Pods-WeChatFindUITests.release.xcconfig"; sourceTree = "<group>"; };
+		40421656205A618700F150B3 /* FSCustomButton使用 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FSCustomButton使用"; sourceTree = "<group>"; };
+		40421657205A618700F150B3 /* FSCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCustomButton.h; sourceTree = "<group>"; };
+		40421658205A618700F150B3 /* CALayer+FSUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+FSUI.h"; sourceTree = "<group>"; };
+		40421659205A618700F150B3 /* FSCommenDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCommenDefine.h; sourceTree = "<group>"; };
+		4042165A205A618700F150B3 /* FSCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FSCustomButton.m; sourceTree = "<group>"; };
+		4042165B205A618700F150B3 /* CALayer+FSUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+FSUI.m"; sourceTree = "<group>"; };
+		408520BE205F4FEB00B6A7B7 /* moment0.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = moment0.plist; sourceTree = "<group>"; };
+		408520BF205F4FEB00B6A7B7 /* moment1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = moment1.plist; sourceTree = "<group>"; };
+		408520C5205F5C0600B6A7B7 /* CircleOfFriendsViewController+Delegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CircleOfFriendsViewController+Delegate.h"; sourceTree = "<group>"; };
+		408520C6205F5C0600B6A7B7 /* CircleOfFriendsViewController+Delegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CircleOfFriendsViewController+Delegate.m"; sourceTree = "<group>"; };
+		408520C8205F5CA800B6A7B7 /* CircleOfFriendHeaderView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleOfFriendHeaderView.h; sourceTree = "<group>"; };
+		408520C9205F5CA800B6A7B7 /* CircleOfFriendHeaderView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleOfFriendHeaderView.m; sourceTree = "<group>"; };
+		408520CB205F5EE300B6A7B7 /* CircleOfFriendHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleOfFriendHeader.h; sourceTree = "<group>"; };
+		408520CC205F83BC00B6A7B7 /* CircleOfFriendTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleOfFriendTableViewCell.h; sourceTree = "<group>"; };
+		408520CD205F83BC00B6A7B7 /* CircleOfFriendTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleOfFriendTableViewCell.m; sourceTree = "<group>"; };
+		408520CF205F85F600B6A7B7 /* CircleOfFriendModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleOfFriendModel.h; sourceTree = "<group>"; };
+		408520D0205F85F600B6A7B7 /* CircleOfFriendModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleOfFriendModel.m; sourceTree = "<group>"; };
+		408520D2205F862100B6A7B7 /* CircleOfFriendLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleOfFriendLayout.h; sourceTree = "<group>"; };
+		408520D3205F862100B6A7B7 /* CircleOfFriendLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleOfFriendLayout.m; sourceTree = "<group>"; };
+		408520DE205FAE1200B6A7B7 /* YYPhotoGroupView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYPhotoGroupView.h; sourceTree = "<group>"; };
+		408520DF205FAE1200B6A7B7 /* YYPhotoGroupView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYPhotoGroupView.m; sourceTree = "<group>"; };
+		408520E1205FAE1300B6A7B7 /* SDWeiXinPhotoContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDWeiXinPhotoContainerView.m; sourceTree = "<group>"; };
+		408520E2205FAE1300B6A7B7 /* SDWeiXinPhotoContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWeiXinPhotoContainerView.h; sourceTree = "<group>"; };
+		408520E4205FAE1300B6A7B7 /* JRMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRMenuView.m; sourceTree = "<group>"; };
+		408520E5205FAE1300B6A7B7 /* JRMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRMenuView.h; sourceTree = "<group>"; };
+		409FEF1F205B5295000CF933 /* CircleOfFriendsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleOfFriendsViewController.h; sourceTree = "<group>"; };
+		409FEF20205B5295000CF933 /* CircleOfFriendsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleOfFriendsViewController.m; sourceTree = "<group>"; };
+		40B04FBC204391C700328AF8 /* WeChatFind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatFind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B04FBF204391C700328AF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		40B04FC0204391C700328AF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		40B04FC2204391C700328AF8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		40B04FC3204391C700328AF8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		40B04FC6204391C700328AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		40B04FC8204391C700328AF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		40B04FCB204391C700328AF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		40B04FCD204391C700328AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40B04FCE204391C700328AF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		40B04FD4204391C700328AF8 /* WeChatFindTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatFindTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B04FD8204391C700328AF8 /* WeChatFindTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatFindTests.m; sourceTree = "<group>"; };
+		40B04FDA204391C700328AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40B04FDF204391C700328AF8 /* WeChatFindUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeChatFindUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		40B04FE3204391C700328AF8 /* WeChatFindUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WeChatFindUITests.m; sourceTree = "<group>"; };
+		40B04FE5204391C700328AF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		40B04FF1204393B800328AF8 /* ManageFindViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ManageFindViewController.h; sourceTree = "<group>"; };
+		40B04FF2204393B800328AF8 /* ManageFindViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ManageFindViewController.m; sourceTree = "<group>"; };
+		40B04FF4204397A700328AF8 /* FindTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FindTableViewCell.h; sourceTree = "<group>"; };
+		40B04FF5204397A700328AF8 /* FindTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindTableViewCell.m; sourceTree = "<group>"; };
+		46E95ED4AA62760A974CD692 /* libPods-WeChatFind.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeChatFind.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E5962F9568A3BB5ECAF814B /* Pods-WeChatFindTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatFindTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeChatFindTests/Pods-WeChatFindTests.debug.xcconfig"; sourceTree = "<group>"; };
+		554DE43927A85A007493053A /* libPods-WeChatFindTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeChatFindTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5946869557C3C89AF88398E9 /* Pods-WeChatFind.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatFind.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeChatFind/Pods-WeChatFind.release.xcconfig"; sourceTree = "<group>"; };
+		65F95644610758C33563BE33 /* Pods-WeChatFindTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatFindTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeChatFindTests/Pods-WeChatFindTests.release.xcconfig"; sourceTree = "<group>"; };
+		7AC68581EBB62A4E40E16796 /* libPods-WeChatFindUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WeChatFindUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89C602AEC261E7D6D05F45BD /* Pods-WeChatFind.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatFind.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeChatFind/Pods-WeChatFind.debug.xcconfig"; sourceTree = "<group>"; };
+		B73CCDC4F6A1624809B0680A /* Pods-WeChatFindUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatFindUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WeChatFindUITests/Pods-WeChatFindUITests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		40B04FB9204391C700328AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18BF2D4EB5882A4A17EDE1B6 /* libPods-WeChatFind.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B04FD1204391C700328AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06142FF03D99BAE42DFDF71C /* libPods-WeChatFindTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B04FDC204391C700328AF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A6722F06B364F593DB3FFA6B /* libPods-WeChatFindUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40421655205A618700F150B3 /* 图文 button */ = {
+			isa = PBXGroup;
+			children = (
+				40421656205A618700F150B3 /* FSCustomButton使用 */,
+				40421657205A618700F150B3 /* FSCustomButton.h */,
+				40421658205A618700F150B3 /* CALayer+FSUI.h */,
+				40421659205A618700F150B3 /* FSCommenDefine.h */,
+				4042165A205A618700F150B3 /* FSCustomButton.m */,
+				4042165B205A618700F150B3 /* CALayer+FSUI.m */,
+			);
+			path = "图文 button";
+			sourceTree = "<group>";
+		};
+		408520C2205F5AD000B6A7B7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				408520CF205F85F600B6A7B7 /* CircleOfFriendModel.h */,
+				408520D0205F85F600B6A7B7 /* CircleOfFriendModel.m */,
+				408520D2205F862100B6A7B7 /* CircleOfFriendLayout.h */,
+				408520D3205F862100B6A7B7 /* CircleOfFriendLayout.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		408520C3205F5ADD00B6A7B7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				40B04FF4204397A700328AF8 /* FindTableViewCell.h */,
+				40B04FF5204397A700328AF8 /* FindTableViewCell.m */,
+				408520C8205F5CA800B6A7B7 /* CircleOfFriendHeaderView.h */,
+				408520C9205F5CA800B6A7B7 /* CircleOfFriendHeaderView.m */,
+				408520CC205F83BC00B6A7B7 /* CircleOfFriendTableViewCell.h */,
+				408520CD205F83BC00B6A7B7 /* CircleOfFriendTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		408520C4205F5AE500B6A7B7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				40B04FC2204391C700328AF8 /* ViewController.h */,
+				40B04FC3204391C700328AF8 /* ViewController.m */,
+				40B04FF1204393B800328AF8 /* ManageFindViewController.h */,
+				40B04FF2204393B800328AF8 /* ManageFindViewController.m */,
+				409FEF1F205B5295000CF933 /* CircleOfFriendsViewController.h */,
+				409FEF20205B5295000CF933 /* CircleOfFriendsViewController.m */,
+				408520C5205F5C0600B6A7B7 /* CircleOfFriendsViewController+Delegate.h */,
+				408520C6205F5C0600B6A7B7 /* CircleOfFriendsViewController+Delegate.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		408520DD205FAE1200B6A7B7 /* YYPhotoGroupView */ = {
+			isa = PBXGroup;
+			children = (
+				408520DE205FAE1200B6A7B7 /* YYPhotoGroupView.h */,
+				408520DF205FAE1200B6A7B7 /* YYPhotoGroupView.m */,
+			);
+			path = YYPhotoGroupView;
+			sourceTree = "<group>";
+		};
+		408520E0205FAE1300B6A7B7 /* PhotoContainer */ = {
+			isa = PBXGroup;
+			children = (
+				408520E1205FAE1300B6A7B7 /* SDWeiXinPhotoContainerView.m */,
+				408520E2205FAE1300B6A7B7 /* SDWeiXinPhotoContainerView.h */,
+			);
+			path = PhotoContainer;
+			sourceTree = "<group>";
+		};
+		408520E3205FAE1300B6A7B7 /* JRMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				408520E4205FAE1300B6A7B7 /* JRMenuView.m */,
+				408520E5205FAE1300B6A7B7 /* JRMenuView.h */,
+			);
+			path = JRMenuView;
+			sourceTree = "<group>";
+		};
+		40B04FB3204391C700328AF8 = {
+			isa = PBXGroup;
+			children = (
+				40B04FBE204391C700328AF8 /* WeChatFind */,
+				40B04FD7204391C700328AF8 /* WeChatFindTests */,
+				40B04FE2204391C700328AF8 /* WeChatFindUITests */,
+				40B04FBD204391C700328AF8 /* Products */,
+				887C7F65089E9F5E4084F419 /* Pods */,
+				CC1FCD880121DC52F8D93618 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		40B04FBD204391C700328AF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				40B04FBC204391C700328AF8 /* WeChatFind.app */,
+				40B04FD4204391C700328AF8 /* WeChatFindTests.xctest */,
+				40B04FDF204391C700328AF8 /* WeChatFindUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		40B04FBE204391C700328AF8 /* WeChatFind */ = {
+			isa = PBXGroup;
+			children = (
+				40421655205A618700F150B3 /* 图文 button */,
+				40B04FBF204391C700328AF8 /* AppDelegate.h */,
+				40B04FC0204391C700328AF8 /* AppDelegate.m */,
+				408520C4205F5AE500B6A7B7 /* Controllers */,
+				408520C3205F5ADD00B6A7B7 /* Views */,
+				408520C2205F5AD000B6A7B7 /* Model */,
+				408520E3205FAE1300B6A7B7 /* JRMenuView */,
+				408520E0205FAE1300B6A7B7 /* PhotoContainer */,
+				408520DD205FAE1200B6A7B7 /* YYPhotoGroupView */,
+				40B04FC5204391C700328AF8 /* Main.storyboard */,
+				40B04FC8204391C700328AF8 /* Assets.xcassets */,
+				40B04FCA204391C700328AF8 /* LaunchScreen.storyboard */,
+				40B04FCD204391C700328AF8 /* Info.plist */,
+				408520BE205F4FEB00B6A7B7 /* moment0.plist */,
+				408520BF205F4FEB00B6A7B7 /* moment1.plist */,
+				40B04FCE204391C700328AF8 /* main.m */,
+				408520CB205F5EE300B6A7B7 /* CircleOfFriendHeader.h */,
+			);
+			path = WeChatFind;
+			sourceTree = "<group>";
+		};
+		40B04FD7204391C700328AF8 /* WeChatFindTests */ = {
+			isa = PBXGroup;
+			children = (
+				40B04FD8204391C700328AF8 /* WeChatFindTests.m */,
+				40B04FDA204391C700328AF8 /* Info.plist */,
+			);
+			path = WeChatFindTests;
+			sourceTree = "<group>";
+		};
+		40B04FE2204391C700328AF8 /* WeChatFindUITests */ = {
+			isa = PBXGroup;
+			children = (
+				40B04FE3204391C700328AF8 /* WeChatFindUITests.m */,
+				40B04FE5204391C700328AF8 /* Info.plist */,
+			);
+			path = WeChatFindUITests;
+			sourceTree = "<group>";
+		};
+		887C7F65089E9F5E4084F419 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89C602AEC261E7D6D05F45BD /* Pods-WeChatFind.debug.xcconfig */,
+				5946869557C3C89AF88398E9 /* Pods-WeChatFind.release.xcconfig */,
+				4E5962F9568A3BB5ECAF814B /* Pods-WeChatFindTests.debug.xcconfig */,
+				65F95644610758C33563BE33 /* Pods-WeChatFindTests.release.xcconfig */,
+				B73CCDC4F6A1624809B0680A /* Pods-WeChatFindUITests.debug.xcconfig */,
+				2383CE0F178352C1E639A979 /* Pods-WeChatFindUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CC1FCD880121DC52F8D93618 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46E95ED4AA62760A974CD692 /* libPods-WeChatFind.a */,
+				554DE43927A85A007493053A /* libPods-WeChatFindTests.a */,
+				7AC68581EBB62A4E40E16796 /* libPods-WeChatFindUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		40B04FBB204391C700328AF8 /* WeChatFind */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40B04FE8204391C700328AF8 /* Build configuration list for PBXNativeTarget "WeChatFind" */;
+			buildPhases = (
+				09F2E49F8D54E303975B1F73 /* [CP] Check Pods Manifest.lock */,
+				40B04FB8204391C700328AF8 /* Sources */,
+				40B04FB9204391C700328AF8 /* Frameworks */,
+				40B04FBA204391C700328AF8 /* Resources */,
+				B85C12251FC0354875DD930B /* [CP] Embed Pods Frameworks */,
+				27735993C9A70C9C9B3FC6E1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeChatFind;
+			productName = WeChatFind;
+			productReference = 40B04FBC204391C700328AF8 /* WeChatFind.app */;
+			productType = "com.apple.product-type.application";
+		};
+		40B04FD3204391C700328AF8 /* WeChatFindTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40B04FEB204391C700328AF8 /* Build configuration list for PBXNativeTarget "WeChatFindTests" */;
+			buildPhases = (
+				BBE76745A3C8160C19725BE1 /* [CP] Check Pods Manifest.lock */,
+				40B04FD0204391C700328AF8 /* Sources */,
+				40B04FD1204391C700328AF8 /* Frameworks */,
+				40B04FD2204391C700328AF8 /* Resources */,
+				B1099975109A28F1C685E582 /* [CP] Embed Pods Frameworks */,
+				AD24380C327E3D0681A4D286 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40B04FD6204391C700328AF8 /* PBXTargetDependency */,
+			);
+			name = WeChatFindTests;
+			productName = WeChatFindTests;
+			productReference = 40B04FD4204391C700328AF8 /* WeChatFindTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		40B04FDE204391C700328AF8 /* WeChatFindUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 40B04FEE204391C700328AF8 /* Build configuration list for PBXNativeTarget "WeChatFindUITests" */;
+			buildPhases = (
+				87A55F4EB30D7AE46DB0C6C5 /* [CP] Check Pods Manifest.lock */,
+				40B04FDB204391C700328AF8 /* Sources */,
+				40B04FDC204391C700328AF8 /* Frameworks */,
+				40B04FDD204391C700328AF8 /* Resources */,
+				F6D1880CD2FD06A9C345F156 /* [CP] Embed Pods Frameworks */,
+				8150D3C0AD979A47F71710F8 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				40B04FE1204391C700328AF8 /* PBXTargetDependency */,
+			);
+			name = WeChatFindUITests;
+			productName = WeChatFindUITests;
+			productReference = 40B04FDF204391C700328AF8 /* WeChatFindUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		40B04FB4204391C700328AF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = flyrees;
+				TargetAttributes = {
+					40B04FBB204391C700328AF8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					40B04FD3204391C700328AF8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40B04FBB204391C700328AF8;
+					};
+					40B04FDE204391C700328AF8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 40B04FBB204391C700328AF8;
+					};
+				};
+			};
+			buildConfigurationList = 40B04FB7204391C700328AF8 /* Build configuration list for PBXProject "WeChatFind" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 40B04FB3204391C700328AF8;
+			productRefGroup = 40B04FBD204391C700328AF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				40B04FBB204391C700328AF8 /* WeChatFind */,
+				40B04FD3204391C700328AF8 /* WeChatFindTests */,
+				40B04FDE204391C700328AF8 /* WeChatFindUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		40B04FBA204391C700328AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B04FCC204391C700328AF8 /* LaunchScreen.storyboard in Resources */,
+				40B04FC9204391C700328AF8 /* Assets.xcassets in Resources */,
+				408520C0205F4FEB00B6A7B7 /* moment0.plist in Resources */,
+				40B04FC7204391C700328AF8 /* Main.storyboard in Resources */,
+				408520C1205F4FEB00B6A7B7 /* moment1.plist in Resources */,
+				4042165C205A618800F150B3 /* FSCustomButton使用 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B04FD2204391C700328AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B04FDD204391C700328AF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		09F2E49F8D54E303975B1F73 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		27735993C9A70C9C9B3FC6E1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeChatFind/Pods-WeChatFind-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8150D3C0AD979A47F71710F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeChatFindUITests/Pods-WeChatFindUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		87A55F4EB30D7AE46DB0C6C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD24380C327E3D0681A4D286 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeChatFindTests/Pods-WeChatFindTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B1099975109A28F1C685E582 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeChatFindTests/Pods-WeChatFindTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B85C12251FC0354875DD930B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeChatFind/Pods-WeChatFind-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BBE76745A3C8160C19725BE1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F6D1880CD2FD06A9C345F156 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WeChatFindUITests/Pods-WeChatFindUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		40B04FB8204391C700328AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				408520D4205F862100B6A7B7 /* CircleOfFriendLayout.m in Sources */,
+				408520C7205F5C0600B6A7B7 /* CircleOfFriendsViewController+Delegate.m in Sources */,
+				40B04FC4204391C700328AF8 /* ViewController.m in Sources */,
+				408520E8205FAE1300B6A7B7 /* JRMenuView.m in Sources */,
+				40B04FCF204391C700328AF8 /* main.m in Sources */,
+				40B04FF6204397A700328AF8 /* FindTableViewCell.m in Sources */,
+				408520CA205F5CA800B6A7B7 /* CircleOfFriendHeaderView.m in Sources */,
+				408520CE205F83BC00B6A7B7 /* CircleOfFriendTableViewCell.m in Sources */,
+				408520E6205FAE1300B6A7B7 /* YYPhotoGroupView.m in Sources */,
+				409FEF21205B5295000CF933 /* CircleOfFriendsViewController.m in Sources */,
+				4042165D205A618800F150B3 /* FSCustomButton.m in Sources */,
+				408520D1205F85F600B6A7B7 /* CircleOfFriendModel.m in Sources */,
+				4042165E205A618800F150B3 /* CALayer+FSUI.m in Sources */,
+				40B04FF3204393B800328AF8 /* ManageFindViewController.m in Sources */,
+				40B04FC1204391C700328AF8 /* AppDelegate.m in Sources */,
+				408520E7205FAE1300B6A7B7 /* SDWeiXinPhotoContainerView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B04FD0204391C700328AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B04FD9204391C700328AF8 /* WeChatFindTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		40B04FDB204391C700328AF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40B04FE4204391C700328AF8 /* WeChatFindUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		40B04FD6204391C700328AF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40B04FBB204391C700328AF8 /* WeChatFind */;
+			targetProxy = 40B04FD5204391C700328AF8 /* PBXContainerItemProxy */;
+		};
+		40B04FE1204391C700328AF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 40B04FBB204391C700328AF8 /* WeChatFind */;
+			targetProxy = 40B04FE0204391C700328AF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		40B04FC5204391C700328AF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40B04FC6204391C700328AF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		40B04FCA204391C700328AF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				40B04FCB204391C700328AF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		40B04FE6204391C700328AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		40B04FE7204391C700328AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		40B04FE9204391C700328AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89C602AEC261E7D6D05F45BD /* Pods-WeChatFind.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F5T4CVJU8N;
+				GCC_PREFIX_HEADER = "/Users/seriouslife2015/Desktop/雨诺项目/WeChatFind/WeChatFind/CircleOfFriendHeader.h";
+				INFOPLIST_FILE = WeChatFind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flyrees.WeChatFind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		40B04FEA204391C700328AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5946869557C3C89AF88398E9 /* Pods-WeChatFind.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F5T4CVJU8N;
+				GCC_PREFIX_HEADER = "/Users/seriouslife2015/Desktop/雨诺项目/WeChatFind/WeChatFind/CircleOfFriendHeader.h";
+				INFOPLIST_FILE = WeChatFind/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flyrees.WeChatFind;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		40B04FEC204391C700328AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E5962F9568A3BB5ECAF814B /* Pods-WeChatFindTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeChatFindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flyrees.WeChatFindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeChatFind.app/WeChatFind";
+			};
+			name = Debug;
+		};
+		40B04FED204391C700328AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65F95644610758C33563BE33 /* Pods-WeChatFindTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeChatFindTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flyrees.WeChatFindTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeChatFind.app/WeChatFind";
+			};
+			name = Release;
+		};
+		40B04FEF204391C700328AF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B73CCDC4F6A1624809B0680A /* Pods-WeChatFindUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeChatFindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flyrees.WeChatFindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeChatFind;
+			};
+			name = Debug;
+		};
+		40B04FF0204391C700328AF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2383CE0F178352C1E639A979 /* Pods-WeChatFindUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = WeChatFindUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.flyrees.WeChatFindUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WeChatFind;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		40B04FB7204391C700328AF8 /* Build configuration list for PBXProject "WeChatFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B04FE6204391C700328AF8 /* Debug */,
+				40B04FE7204391C700328AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40B04FE8204391C700328AF8 /* Build configuration list for PBXNativeTarget "WeChatFind" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B04FE9204391C700328AF8 /* Debug */,
+				40B04FEA204391C700328AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40B04FEB204391C700328AF8 /* Build configuration list for PBXNativeTarget "WeChatFindTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B04FEC204391C700328AF8 /* Debug */,
+				40B04FED204391C700328AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		40B04FEE204391C700328AF8 /* Build configuration list for PBXNativeTarget "WeChatFindUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				40B04FEF204391C700328AF8 /* Debug */,
+				40B04FF0204391C700328AF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 40B04FB4204391C700328AF8 /* Project object */;
+}

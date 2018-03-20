@@ -1,0 +1,45 @@
+PODS:
+  - BlocksKit (2.2.5):
+    - BlocksKit/All (= 2.2.5)
+  - BlocksKit/All (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+    - BlocksKit/MessageUI
+    - BlocksKit/UIKit
+  - BlocksKit/Core (2.2.5)
+  - BlocksKit/DynamicDelegate (2.2.5)
+  - BlocksKit/MessageUI (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - BlocksKit/UIKit (2.2.5):
+    - BlocksKit/Core
+    - BlocksKit/DynamicDelegate
+  - IQKeyboardManager (5.0.7)
+  - MJRefresh (3.1.15.3)
+  - SDWebImage (4.2.3):
+    - SDWebImage/Core (= 4.2.3)
+  - SDWebImage/Core (4.2.3)
+  - SVProgressHUD (2.2.2)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - BlocksKit
+  - IQKeyboardManager
+  - MJRefresh
+  - SDWebImage
+  - SVProgressHUD
+  - YYKit
+
+SPEC CHECKSUMS:
+  BlocksKit: 7f422b971407001178d181a43b99014ea2591fe6
+  IQKeyboardManager: 0bfa4607d39924116b5c0c8b55b5d789288b5cba
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  SDWebImage: 791bb72962b3492327ddcac4b1880bd1b5458431
+  SVProgressHUD: 59b2d3dabacbd051576d21d32293ca7228dc18b0
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: 8e8067ca7eb57ee5792ab8b04f76dae849b5bbbd
+
+COCOAPODS: 1.2.1
