@@ -14,7 +14,6 @@
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
         self.backgroundColor = [UIColor whiteColor];
-        
         [self addSubview:self.backGroundImg];
         [self addSubview:self.nicknameL];
         [self addSubview:self.iconImg];
@@ -31,6 +30,7 @@
     if (!_backGroundImg) {
         _backGroundImg = [[UIImageView alloc] init];
         _backGroundImg.translatesAutoresizingMaskIntoConstraints = NO;
+        _backGroundImg.contentMode = UIViewContentModeScaleAspectFill;
         _backGroundImg.backgroundColor = [UIColor clearColor];
     }
     return _backGroundImg;

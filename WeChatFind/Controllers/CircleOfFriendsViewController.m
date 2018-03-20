@@ -42,7 +42,7 @@
 }
 - (UITableView *)circleOfFriendTab {
     if (!_circleOfFriendTab) {
-        _circleOfFriendTab = [[UITableView alloc] initWithFrame:[UIScreen mainScreen].bounds style:UITableViewStylePlain];
+        _circleOfFriendTab = [[UITableView alloc] initWithFrame:CGRectMake(0, -230, SCREENWIDTH, [UIScreen mainScreen].bounds.size.height + 230) style:UITableViewStylePlain];
         _circleOfFriendTab.backgroundColor = [UIColor whiteColor];
         _circleOfFriendTab.dataSource = self;
         _circleOfFriendTab.delegate = self;
@@ -53,7 +53,7 @@
 }
 - (CircleOfFriendHeaderView *)headerView {
     if (!_headerView) {
-        _headerView = [[CircleOfFriendHeaderView alloc] initWithFrame:CGRectMake(0, 0, SCREENWIDTH, 300)];
+        _headerView = [[CircleOfFriendHeaderView alloc] initWithFrame:CGRectMake(0, 0, SCREENWIDTH, 500)];
         [_headerView.iconImg setImage:[UIImage imageNamed:@"pia"]];
         [_headerView.backGroundImg setImage:[UIImage imageNamed:@"mew_baseline"]];
         _headerView.nicknameL.text = @"我叫Flyrees";
