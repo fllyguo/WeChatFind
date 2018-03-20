@@ -6,5 +6,5 @@
 3. 这里可能用到了别人的东西，在此只是学习使用
 
 # 示例
-![](https://github.com/fllyguo/WeChatFind/blob/master/Snapshots/20180320-133723-HD.gif)![](https://github.com/fllyguo/WeChatFind/blob/master/Snapshots/20180320-134024-HD.gif)
+![image](https://github.com/fllyguo/WeChatFind/blob/master/Snapshots/20180320-133723-HD.gif)  ![image](https://github.com/fllyguo/WeChatFind/blob/master/Snapshots/20180320-134024-HD.gif)
 
