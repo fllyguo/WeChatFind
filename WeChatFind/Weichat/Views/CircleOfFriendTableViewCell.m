@@ -43,6 +43,7 @@
     if (!_grayBut) {
         _grayBut = [UIButton buttonWithType:UIButtonTypeCustom];
         _grayBut.backgroundColor = RGBA_COLOR(240, 240, 242, 1);
+//        _grayBut.backgroundColor = [UIColor redColor];
         WS(weakSelf);
         [_grayBut bk_addEventHandler:^(id sender) {
             if (weakSelf.cell.delegate != nil && ([weakSelf.cell.delegate respondsToSelector:@selector(DidClickGrayViewInDynamicsCell:)])) {
@@ -56,7 +57,7 @@
     if (!_thumbImg) {
         _thumbImg = [UIImageView new];
         _thumbImg.userInteractionEnabled = NO;
-        _thumbImg.backgroundColor = [UIColor grayColor];
+//        _thumbImg.backgroundColor = [UIColor yellowColor];
     }
     return _thumbImg;
 }
@@ -64,6 +65,7 @@
     if (!_dspLabel) {
         _dspLabel = [YYLabel new];
         _dspLabel.userInteractionEnabled = NO;
+//        _dspLabel.backgroundColor = [UIColor purpleColor];
     }
     return _dspLabel;
 }
@@ -190,6 +192,7 @@
 {
     if (!_thumbLabel) {
         _thumbLabel = [YYLabel new];
+//        _thumbLabel.backgroundColor = [UIColor blueColor];
     }
     return _thumbLabel;
 }
@@ -198,6 +201,7 @@
     if (!_dividingLine) {
         _dividingLine = [UIView new];
         _dividingLine.backgroundColor = RGBA_COLOR(210, 210, 210, 1);
+//        _dividingLine.backgroundColor = [UIColor cyanColor];
     }
     return _dividingLine;
 }
@@ -209,7 +213,7 @@
         _commentTable.delegate = self;
         _commentTable.scrollEnabled = NO;
         _commentTable.separatorStyle = UITableViewCellSeparatorStyleNone;
-        _commentTable.backgroundColor = [UIColor clearColor];
+//        _commentTable.backgroundColor = [UIColor redColor];
     }
     return _commentTable;
 }
@@ -455,7 +459,7 @@
     if(!_portrait){
         _portrait = [UIImageView new];
         _portrait.userInteractionEnabled = YES;
-        _portrait.backgroundColor = [UIColor redColor];
+//        _portrait.backgroundColor = [UIColor redColor];
         WS(weakSelf);
         UITapGestureRecognizer * tapGR = [[UITapGestureRecognizer alloc] bk_initWithHandler:^(UIGestureRecognizer *sender, UIGestureRecognizerState state, CGPoint location) {
             if (weakSelf.delegate && [weakSelf.delegate respondsToSelector:@selector(DynamicsCell:didClickUser:)]) {
@@ -470,6 +474,7 @@
 {
     if (!_nameLabel) {
         _nameLabel = [YYLabel new];
+//        _nameLabel.backgroundColor = [UIColor purpleColor];
         _nameLabel.font = [UIFont systemFontOfSize:15];
         _nameLabel.textColor = [UIColor colorWithRed:74/255.0 green:90/255.0 blue:133/255.0 alpha:1];
         WS(weakSelf);
@@ -486,6 +491,7 @@
 {
     if (!_detailLabel) {
         _detailLabel = [YYLabel new];
+//        _detailLabel.backgroundColor = [UIColor yellowColor];
         _detailLabel.textLongPressAction = ^(UIView * _Nonnull containerView, NSAttributedString * _Nonnull text, NSRange range, CGRect rect) {
             //            containerView.backgroundColor = RGBA_COLOR(1, 1, 1, .2);
             [SVProgressHUD showSuccessWithStatus:@"文字复制成功!"];
@@ -502,6 +508,7 @@
 {
     if (!_moreLessDetailBtn) {
         _moreLessDetailBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+//        _moreLessDetailBtn.backgroundColor = [UIColor orangeColor];
         _moreLessDetailBtn.titleLabel.font = [UIFont systemFontOfSize:14];
         [_moreLessDetailBtn setTitleColor:[UIColor colorWithRed:74/255.0 green:90/255.0 blue:133/255.0 alpha:1] forState:UIControlStateNormal];
         _moreLessDetailBtn.hidden = YES;
@@ -518,6 +525,7 @@
 {
     if (!_picContainerView) {
         _picContainerView = [SDWeiXinPhotoContainerView new];
+//        _picContainerView.backgroundColor = [UIColor cyanColor];
         _picContainerView.hidden = YES;
     }
     return _picContainerView;
@@ -526,6 +534,7 @@
 {
     if (!_spreadBtn) {
         _spreadBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+//        _spreadBtn.backgroundColor = [UIColor greenColor];
         _spreadBtn.titleLabel.font = [UIFont systemFontOfSize:12];
         _spreadBtn.titleLabel.lineBreakMode = NSLineBreakByTruncatingTail;
         [_spreadBtn setTitleColor:[UIColor colorWithRed:74/255.0 green:90/255.0 blue:133/255.0 alpha:1] forState:UIControlStateNormal];
@@ -542,6 +551,7 @@
 {
     if (!_grayView) {
         _grayView = [CircleOfFriendGrayView new];
+//        _grayView.backgroundColor = [UIColor blueColor];
         _grayView.cell = self;
     }
     return _grayView;
@@ -550,6 +560,7 @@
 {
     if (!_dateLabel) {
         _dateLabel = [YYLabel new];
+//        _dateLabel.backgroundColor = [UIColor brownColor];
         _dateLabel.textColor = [UIColor lightGrayColor];
         _dateLabel.font = [UIFont systemFontOfSize:13];
     }
@@ -559,6 +570,7 @@
 {
     if (!_deleteBtn) {
         _deleteBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+//        _deleteBtn.backgroundColor = [UIColor cyanColor];
         [_deleteBtn setTitle:@"删除" forState:UIControlStateNormal];
         _deleteBtn.titleLabel.adjustsFontSizeToFitWidth = YES;
         _deleteBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
@@ -577,6 +589,7 @@
 {
     if (!_menuBtn) {
         _menuBtn = [UIButton buttonWithType:UIButtonTypeCustom];
+//        _menuBtn.backgroundColor = [UIColor redColor];
         _menuBtn.contentMode = UIViewContentModeScaleAspectFit;
         [_menuBtn setImage:[UIImage imageNamed:@"AlbumOperateMore"] forState:UIControlStateNormal];
         WS(weakSelf);
@@ -590,6 +603,7 @@
 {
     if (!_thumbCommentView) {
         _thumbCommentView = [CircleOfFriendThumCommentView new];
+//        _thumbCommentView.backgroundColor = [UIColor yellowColor];
         _thumbCommentView.cell = self;
     }
     return _thumbCommentView;

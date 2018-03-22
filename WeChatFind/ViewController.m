@@ -11,6 +11,8 @@
 #import "FindTableViewCell.h"
 #import "FSCustomButton.h"
 #import "CircleOfFriendsViewController.h"
+#import "WBStatusTimelineViewController.h"
+
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource,updateFindDelegate>
 @property (nonatomic, strong)UITableView *findTab;
@@ -107,9 +109,18 @@
         CircleOfFriendsViewController *circleVc = [[CircleOfFriendsViewController alloc] init];
         circleVc.title = @"朋友圈";
         [self.navigationController pushViewController:circleVc animated:YES];
+    }else if ([dict[@"findId"] isEqualToString:@"11"]){
+        WBStatusTimelineViewController *wbVc = [[WBStatusTimelineViewController alloc] init];
+        wbVc.title = @"微博";
+        [self.navigationController pushViewController:wbVc animated:YES];
     }
 }
 - (void)findInfo {
+    NSMutableDictionary *dic0 = [NSMutableDictionary dictionary];
+    [dic0 setObject:@"Weibo" forKey:@"icon"];
+    [dic0 setObject:@"微博" forKey:@"title"];
+    [dic0 setObject:@"11" forKey:@"findId"];
+    
     NSMutableDictionary *dic1 = [NSMutableDictionary dictionary];
     [dic1 setObject:@"ff_IconShowAlbum" forKey:@"icon"];
     [dic1 setObject:@"朋友圈" forKey:@"title"];
@@ -160,7 +171,9 @@
     [dic10 setObject:@"小程序" forKey:@"title"];
     [dic10 setObject:@"10" forKey:@"findId"];
     
-    _findInfoArray = [NSMutableArray arrayWithObjects:@{@"section":@"A", @"include":[NSMutableArray arrayWithObjects:dic1, nil]},
+    _findInfoArray = [NSMutableArray arrayWithObjects:
+//                     @{@"section":@"G", @"include":[NSMutableArray arrayWithObjects:dic0, nil]},
+                     @{@"section":@"A", @"include":[NSMutableArray arrayWithObjects:dic1, nil]},
                      @{@"section":@"B", @"include":[NSMutableArray arrayWithObjects:dic2, dic3, nil]},
                      @{@"section":@"C", @"include":[NSMutableArray arrayWithObjects:dic4, nil]},
                      @{@"section":@"D", @"include":[NSMutableArray arrayWithObjects:dic5, dic6, dic7, nil]},

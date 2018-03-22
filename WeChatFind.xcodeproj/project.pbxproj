@@ -22,6 +22,18 @@
 		408520E6205FAE1300B6A7B7 /* YYPhotoGroupView.m in Sources */ = {isa = PBXBuildFile; fileRef = 408520DF205FAE1200B6A7B7 /* YYPhotoGroupView.m */; };
 		408520E7205FAE1300B6A7B7 /* SDWeiXinPhotoContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 408520E1205FAE1300B6A7B7 /* SDWeiXinPhotoContainerView.m */; };
 		408520E8205FAE1300B6A7B7 /* JRMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 408520E4205FAE1300B6A7B7 /* JRMenuView.m */; };
+		4088D10D2062293500E66F68 /* weibo_3.json in Resources */ = {isa = PBXBuildFile; fileRef = 4088D1052062293500E66F68 /* weibo_3.json */; };
+		4088D10E2062293500E66F68 /* weibo_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 4088D1062062293500E66F68 /* weibo_2.json */; };
+		4088D10F2062293500E66F68 /* weibo_5.json in Resources */ = {isa = PBXBuildFile; fileRef = 4088D1072062293500E66F68 /* weibo_5.json */; };
+		4088D1102062293500E66F68 /* weibo_4.json in Resources */ = {isa = PBXBuildFile; fileRef = 4088D1082062293500E66F68 /* weibo_4.json */; };
+		4088D1112062293500E66F68 /* weibo_7.json in Resources */ = {isa = PBXBuildFile; fileRef = 4088D1092062293500E66F68 /* weibo_7.json */; };
+		4088D1122062293500E66F68 /* weibo_6.json in Resources */ = {isa = PBXBuildFile; fileRef = 4088D10A2062293500E66F68 /* weibo_6.json */; };
+		4088D1132062293500E66F68 /* weibo_1.json in Resources */ = {isa = PBXBuildFile; fileRef = 4088D10B2062293500E66F68 /* weibo_1.json */; };
+		4088D1142062293500E66F68 /* weibo_0.json in Resources */ = {isa = PBXBuildFile; fileRef = 4088D10C2062293500E66F68 /* weibo_0.json */; };
+		4088D11720622CC600E66F68 /* WBStatusTimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4088D11620622CC600E66F68 /* WBStatusTimelineViewController.m */; };
+		4088D11A2062310F00E66F68 /* WBStatusTimelineTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4088D1192062310F00E66F68 /* WBStatusTimelineTableViewCell.m */; };
+		4088D11D2062365400E66F68 /* WBStatusModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4088D11C2062365400E66F68 /* WBStatusModel.m */; };
+		4088D1202062366200E66F68 /* WBStatusLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4088D11F2062366200E66F68 /* WBStatusLayout.m */; };
 		409FEF21205B5295000CF933 /* CircleOfFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 409FEF20205B5295000CF933 /* CircleOfFriendsViewController.m */; };
 		40B04FC1204391C700328AF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B04FC0204391C700328AF8 /* AppDelegate.m */; };
 		40B04FC4204391C700328AF8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B04FC3204391C700328AF8 /* ViewController.m */; };
@@ -80,6 +92,22 @@
 		408520E2205FAE1300B6A7B7 /* SDWeiXinPhotoContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDWeiXinPhotoContainerView.h; sourceTree = "<group>"; };
 		408520E4205FAE1300B6A7B7 /* JRMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRMenuView.m; sourceTree = "<group>"; };
 		408520E5205FAE1300B6A7B7 /* JRMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRMenuView.h; sourceTree = "<group>"; };
+		4088D1052062293500E66F68 /* weibo_3.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_3.json; sourceTree = "<group>"; };
+		4088D1062062293500E66F68 /* weibo_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_2.json; sourceTree = "<group>"; };
+		4088D1072062293500E66F68 /* weibo_5.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_5.json; sourceTree = "<group>"; };
+		4088D1082062293500E66F68 /* weibo_4.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_4.json; sourceTree = "<group>"; };
+		4088D1092062293500E66F68 /* weibo_7.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_7.json; sourceTree = "<group>"; };
+		4088D10A2062293500E66F68 /* weibo_6.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_6.json; sourceTree = "<group>"; };
+		4088D10B2062293500E66F68 /* weibo_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_1.json; sourceTree = "<group>"; };
+		4088D10C2062293500E66F68 /* weibo_0.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo_0.json; sourceTree = "<group>"; };
+		4088D11520622CC600E66F68 /* WBStatusTimelineViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBStatusTimelineViewController.h; sourceTree = "<group>"; };
+		4088D11620622CC600E66F68 /* WBStatusTimelineViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBStatusTimelineViewController.m; sourceTree = "<group>"; };
+		4088D1182062310F00E66F68 /* WBStatusTimelineTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBStatusTimelineTableViewCell.h; sourceTree = "<group>"; };
+		4088D1192062310F00E66F68 /* WBStatusTimelineTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBStatusTimelineTableViewCell.m; sourceTree = "<group>"; };
+		4088D11B2062365400E66F68 /* WBStatusModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBStatusModel.h; sourceTree = "<group>"; };
+		4088D11C2062365400E66F68 /* WBStatusModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBStatusModel.m; sourceTree = "<group>"; };
+		4088D11E2062366200E66F68 /* WBStatusLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WBStatusLayout.h; sourceTree = "<group>"; };
+		4088D11F2062366200E66F68 /* WBStatusLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WBStatusLayout.m; sourceTree = "<group>"; };
 		409FEF1F205B5295000CF933 /* CircleOfFriendsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CircleOfFriendsViewController.h; sourceTree = "<group>"; };
 		409FEF20205B5295000CF933 /* CircleOfFriendsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CircleOfFriendsViewController.m; sourceTree = "<group>"; };
 		40B04FBC204391C700328AF8 /* WeChatFind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeChatFind.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -180,8 +208,6 @@
 		408520C4205F5AE500B6A7B7 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				40B04FC2204391C700328AF8 /* ViewController.h */,
-				40B04FC3204391C700328AF8 /* ViewController.m */,
 				40B04FF1204393B800328AF8 /* ManageFindViewController.h */,
 				40B04FF2204393B800328AF8 /* ManageFindViewController.m */,
 				409FEF1F205B5295000CF933 /* CircleOfFriendsViewController.h */,
@@ -219,6 +245,60 @@
 			path = JRMenuView;
 			sourceTree = "<group>";
 		};
+		4088D101206227E400E66F68 /* Weibo */ = {
+			isa = PBXGroup;
+			children = (
+				4088D1042062293500E66F68 /* API Dump */,
+				4088D11520622CC600E66F68 /* WBStatusTimelineViewController.h */,
+				4088D11620622CC600E66F68 /* WBStatusTimelineViewController.m */,
+				4088D1182062310F00E66F68 /* WBStatusTimelineTableViewCell.h */,
+				4088D1192062310F00E66F68 /* WBStatusTimelineTableViewCell.m */,
+				4088D11B2062365400E66F68 /* WBStatusModel.h */,
+				4088D11C2062365400E66F68 /* WBStatusModel.m */,
+				4088D11E2062366200E66F68 /* WBStatusLayout.h */,
+				4088D11F2062366200E66F68 /* WBStatusLayout.m */,
+			);
+			path = Weibo;
+			sourceTree = "<group>";
+		};
+		4088D102206228CB00E66F68 /* Weichat */ = {
+			isa = PBXGroup;
+			children = (
+				4088D1032062292700E66F68 /* API Dump */,
+				408520C4205F5AE500B6A7B7 /* Controllers */,
+				408520C2205F5AD000B6A7B7 /* Model */,
+				408520C3205F5ADD00B6A7B7 /* Views */,
+				408520DD205FAE1200B6A7B7 /* YYPhotoGroupView */,
+				408520E0205FAE1300B6A7B7 /* PhotoContainer */,
+				408520E3205FAE1300B6A7B7 /* JRMenuView */,
+			);
+			path = Weichat;
+			sourceTree = "<group>";
+		};
+		4088D1032062292700E66F68 /* API Dump */ = {
+			isa = PBXGroup;
+			children = (
+				408520BE205F4FEB00B6A7B7 /* moment0.plist */,
+				408520BF205F4FEB00B6A7B7 /* moment1.plist */,
+			);
+			path = "API Dump";
+			sourceTree = "<group>";
+		};
+		4088D1042062293500E66F68 /* API Dump */ = {
+			isa = PBXGroup;
+			children = (
+				4088D1052062293500E66F68 /* weibo_3.json */,
+				4088D1062062293500E66F68 /* weibo_2.json */,
+				4088D1072062293500E66F68 /* weibo_5.json */,
+				4088D1082062293500E66F68 /* weibo_4.json */,
+				4088D1092062293500E66F68 /* weibo_7.json */,
+				4088D10A2062293500E66F68 /* weibo_6.json */,
+				4088D10B2062293500E66F68 /* weibo_1.json */,
+				4088D10C2062293500E66F68 /* weibo_0.json */,
+			);
+			path = "API Dump";
+			sourceTree = "<group>";
+		};
 		40B04FB3204391C700328AF8 = {
 			isa = PBXGroup;
 			children = (
@@ -244,21 +324,17 @@
 		40B04FBE204391C700328AF8 /* WeChatFind */ = {
 			isa = PBXGroup;
 			children = (
+				4088D102206228CB00E66F68 /* Weichat */,
 				40421655205A618700F150B3 /* 图文 button */,
+				4088D101206227E400E66F68 /* Weibo */,
 				40B04FBF204391C700328AF8 /* AppDelegate.h */,
 				40B04FC0204391C700328AF8 /* AppDelegate.m */,
-				408520C4205F5AE500B6A7B7 /* Controllers */,
-				408520C3205F5ADD00B6A7B7 /* Views */,
-				408520C2205F5AD000B6A7B7 /* Model */,
-				408520E3205FAE1300B6A7B7 /* JRMenuView */,
-				408520E0205FAE1300B6A7B7 /* PhotoContainer */,
-				408520DD205FAE1200B6A7B7 /* YYPhotoGroupView */,
+				40B04FC2204391C700328AF8 /* ViewController.h */,
+				40B04FC3204391C700328AF8 /* ViewController.m */,
 				40B04FC5204391C700328AF8 /* Main.storyboard */,
 				40B04FC8204391C700328AF8 /* Assets.xcassets */,
 				40B04FCA204391C700328AF8 /* LaunchScreen.storyboard */,
 				40B04FCD204391C700328AF8 /* Info.plist */,
-				408520BE205F4FEB00B6A7B7 /* moment0.plist */,
-				408520BF205F4FEB00B6A7B7 /* moment1.plist */,
 				40B04FCE204391C700328AF8 /* main.m */,
 				408520CB205F5EE300B6A7B7 /* CircleOfFriendHeader.h */,
 			);
@@ -424,8 +500,16 @@
 				40B04FCC204391C700328AF8 /* LaunchScreen.storyboard in Resources */,
 				40B04FC9204391C700328AF8 /* Assets.xcassets in Resources */,
 				408520C0205F4FEB00B6A7B7 /* moment0.plist in Resources */,
+				4088D1132062293500E66F68 /* weibo_1.json in Resources */,
+				4088D10E2062293500E66F68 /* weibo_2.json in Resources */,
+				4088D1112062293500E66F68 /* weibo_7.json in Resources */,
+				4088D10D2062293500E66F68 /* weibo_3.json in Resources */,
+				4088D1142062293500E66F68 /* weibo_0.json in Resources */,
+				4088D1102062293500E66F68 /* weibo_4.json in Resources */,
+				4088D1122062293500E66F68 /* weibo_6.json in Resources */,
 				40B04FC7204391C700328AF8 /* Main.storyboard in Resources */,
 				408520C1205F4FEB00B6A7B7 /* moment1.plist in Resources */,
+				4088D10F2062293500E66F68 /* weibo_5.json in Resources */,
 				4042165C205A618800F150B3 /* FSCustomButton使用 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -591,6 +675,7 @@
 			files = (
 				408520D4205F862100B6A7B7 /* CircleOfFriendLayout.m in Sources */,
 				408520C7205F5C0600B6A7B7 /* CircleOfFriendsViewController+Delegate.m in Sources */,
+				4088D1202062366200E66F68 /* WBStatusLayout.m in Sources */,
 				40B04FC4204391C700328AF8 /* ViewController.m in Sources */,
 				408520E8205FAE1300B6A7B7 /* JRMenuView.m in Sources */,
 				40B04FCF204391C700328AF8 /* main.m in Sources */,
@@ -602,9 +687,12 @@
 				4042165D205A618800F150B3 /* FSCustomButton.m in Sources */,
 				408520D1205F85F600B6A7B7 /* CircleOfFriendModel.m in Sources */,
 				4042165E205A618800F150B3 /* CALayer+FSUI.m in Sources */,
+				4088D11A2062310F00E66F68 /* WBStatusTimelineTableViewCell.m in Sources */,
 				40B04FF3204393B800328AF8 /* ManageFindViewController.m in Sources */,
 				40B04FC1204391C700328AF8 /* AppDelegate.m in Sources */,
 				408520E7205FAE1300B6A7B7 /* SDWeiXinPhotoContainerView.m in Sources */,
+				4088D11720622CC600E66F68 /* WBStatusTimelineViewController.m in Sources */,
+				4088D11D2062365400E66F68 /* WBStatusModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
