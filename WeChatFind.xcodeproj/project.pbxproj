@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		06142FF03D99BAE42DFDF71C /* libPods-WeChatFindTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 554DE43927A85A007493053A /* libPods-WeChatFindTests.a */; };
 		18BF2D4EB5882A4A17EDE1B6 /* libPods-WeChatFind.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46E95ED4AA62760A974CD692 /* libPods-WeChatFind.a */; };
+		40394A5120649AFE004DE370 /* StudyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40394A5020649AFE004DE370 /* StudyViewController.m */; };
+		40394A5420649E39004DE370 /* YYCacheViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40394A5320649E39004DE370 /* YYCacheViewController.m */; };
+		40394A5820649F23004DE370 /* StudyBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40394A5720649F23004DE370 /* StudyBaseViewController.m */; };
 		4042165C205A618800F150B3 /* FSCustomButton使用 in Resources */ = {isa = PBXBuildFile; fileRef = 40421656205A618700F150B3 /* FSCustomButton使用 */; };
 		4042165D205A618800F150B3 /* FSCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042165A205A618700F150B3 /* FSCustomButton.m */; };
 		4042165E205A618800F150B3 /* CALayer+FSUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 4042165B205A618700F150B3 /* CALayer+FSUI.m */; };
@@ -67,6 +70,12 @@
 
 /* Begin PBXFileReference section */
 		2383CE0F178352C1E639A979 /* Pods-WeChatFindUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WeChatFindUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WeChatFindUITests/Pods-WeChatFindUITests.release.xcconfig"; sourceTree = "<group>"; };
+		40394A4F20649AFE004DE370 /* StudyViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudyViewController.h; sourceTree = "<group>"; };
+		40394A5020649AFE004DE370 /* StudyViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudyViewController.m; sourceTree = "<group>"; };
+		40394A5220649E39004DE370 /* YYCacheViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYCacheViewController.h; sourceTree = "<group>"; };
+		40394A5320649E39004DE370 /* YYCacheViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YYCacheViewController.m; sourceTree = "<group>"; };
+		40394A5620649F23004DE370 /* StudyBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StudyBaseViewController.h; sourceTree = "<group>"; };
+		40394A5720649F23004DE370 /* StudyBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StudyBaseViewController.m; sourceTree = "<group>"; };
 		40421656205A618700F150B3 /* FSCustomButton使用 */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "FSCustomButton使用"; sourceTree = "<group>"; };
 		40421657205A618700F150B3 /* FSCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FSCustomButton.h; sourceTree = "<group>"; };
 		40421658205A618700F150B3 /* CALayer+FSUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+FSUI.h"; sourceTree = "<group>"; };
@@ -168,6 +177,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		40394A4E20649ABD004DE370 /* Study */ = {
+			isa = PBXGroup;
+			children = (
+				40394A4F20649AFE004DE370 /* StudyViewController.h */,
+				40394A5020649AFE004DE370 /* StudyViewController.m */,
+				40394A5220649E39004DE370 /* YYCacheViewController.h */,
+				40394A5320649E39004DE370 /* YYCacheViewController.m */,
+			);
+			path = Study;
+			sourceTree = "<group>";
+		};
+		40394A5520649F09004DE370 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				40394A5620649F23004DE370 /* StudyBaseViewController.h */,
+				40394A5720649F23004DE370 /* StudyBaseViewController.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
 		40421655205A618700F150B3 /* 图文 button */ = {
 			isa = PBXGroup;
 			children = (
@@ -324,6 +353,8 @@
 		40B04FBE204391C700328AF8 /* WeChatFind */ = {
 			isa = PBXGroup;
 			children = (
+				40394A5520649F09004DE370 /* Base */,
+				40394A4E20649ABD004DE370 /* Study */,
 				4088D102206228CB00E66F68 /* Weichat */,
 				40421655205A618700F150B3 /* 图文 button */,
 				4088D101206227E400E66F68 /* Weibo */,
@@ -681,11 +712,13 @@
 				40B04FCF204391C700328AF8 /* main.m in Sources */,
 				40B04FF6204397A700328AF8 /* FindTableViewCell.m in Sources */,
 				408520CA205F5CA800B6A7B7 /* CircleOfFriendHeaderView.m in Sources */,
+				40394A5820649F23004DE370 /* StudyBaseViewController.m in Sources */,
 				408520CE205F83BC00B6A7B7 /* CircleOfFriendTableViewCell.m in Sources */,
 				408520E6205FAE1300B6A7B7 /* YYPhotoGroupView.m in Sources */,
 				409FEF21205B5295000CF933 /* CircleOfFriendsViewController.m in Sources */,
 				4042165D205A618800F150B3 /* FSCustomButton.m in Sources */,
 				408520D1205F85F600B6A7B7 /* CircleOfFriendModel.m in Sources */,
+				40394A5420649E39004DE370 /* YYCacheViewController.m in Sources */,
 				4042165E205A618800F150B3 /* CALayer+FSUI.m in Sources */,
 				4088D11A2062310F00E66F68 /* WBStatusTimelineTableViewCell.m in Sources */,
 				40B04FF3204393B800328AF8 /* ManageFindViewController.m in Sources */,
@@ -693,6 +726,7 @@
 				408520E7205FAE1300B6A7B7 /* SDWeiXinPhotoContainerView.m in Sources */,
 				4088D11720622CC600E66F68 /* WBStatusTimelineViewController.m in Sources */,
 				4088D11D2062365400E66F68 /* WBStatusModel.m in Sources */,
+				40394A5120649AFE004DE370 /* StudyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

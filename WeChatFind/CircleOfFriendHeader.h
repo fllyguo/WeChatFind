@@ -12,6 +12,7 @@
 #import <YYKit.h>
 #import <BlocksKit+UIKit.h>
 #import <SVProgressHUD.h>
+#import "StudyBaseViewController.h"
 
 #define NICKNAMEFONT [UIFont systemFontOfSize:18.0]
 #define CONTENTFONT [UIFont systemFontOfSize:15.0]
